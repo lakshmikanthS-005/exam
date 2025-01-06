@@ -1,0 +1,549 @@
+S.NO                                                             EXPERIMENT NAME 
+21. DATA PREPROCESSING AND ANALYSIS FOR DATASET  
+USING WEKA 
+ 
+22. DATA SEGMENTATION BY K- MEANS CLUSTER 
+USING WEKA AND R-TOOL 
+ 
+23.      DATASEGMENTATION BY EXPECTATION MAXIMISATION ALGORITHM  
+THROUGH WEKA 
+ 
+24. DATA SEGMENTATION BY COBWEB – HIERARCHIAL CLUSTERING 
+ALGORITHM USING WEKA TOOL 
+25. FREQUENT PATTERN MINING USING ASSOCIATION RULE THROUGH   
+WEKA AND R TOOLS 
+26. FREQUENT PATTERN MINING USING FP GROWTH  
+THROUGH WEKA TOOL 
+27.                      PREDICTION OF CATEGORICAL DATA USING DECISION TREE  
+                                              ALGORTIHM THROUGH WEKA 
+28.                          PREDICTION OF CATEGORICAL DATA USING SMO 
+                                          ALGORTIHM THROUGH WEKA 
+29.                        EVALUATING ACCURACY OF THE CLASSIFIERS 
+30.                         DESCRIPTION NUMERICAL PREDICTION ANALYSIS USING LINEAR  
+                                            REGRESSION THROUGH WEKA 
+ 
+ 
+ 
+ 
+ 
+ 
+EX.NO : 21  
+Date : 
+                                            
+                            DATA PREPROCESSING AND ANALYSIS FOR DATASET 
+                                                   USING WEKA  
+ 
+AIM: 
+         TO Create data preprocessing and analysis for dataset using weka. 
+ 
+DESCRIPTION: 
+                       Consider a dataset of travel mes.csv file where it contains the 
+columns of (or) a ributes as Date, StartTime, DayOfWeek, GoingTo, Distance, 
+MaxSpeed, AvgSpeed, AvgMovingSpeed, FuelEconomy, TotalTime, 
+MovingTime, Take407All comments. 
+ 
+PROCEDURE : 
+ 
+1.Download WEKA And Install 
+2.Start WEKA 
+3.Open The Data/iris.arff Dataset 
+4.Select And Run An Algorithm 
+5.Review The Results 
+ 
+                                 
+                                    
+ 
+PREPROCESS: 
+ 
+ 
+OBSERVATION : 
+A. ATTRIBUTE TYPE : 
+ 
+S.NO ATTRIBUTE TYPE 
+1.  Date Nominal 
+2.  Start Time Nominal 
+3.  Day Of Week Nominal 
+4.  Going To Nominal 
+5.  Distance Numeric 
+6.  Max Speed Numeric 
+7.  Avg Speed Numeric 
+8.  Avg Moving Speed Numeric 
+9.  
+10.  
+Fuel Economy 
+Total Time 
+Nominal 
+Numeric 
+11.  
+Moving Time 
+Numeric 
+12.  
+Comments 
+Nominal 
+13.  
+Take 407 All 
+Nominal 
+B.PERCENTAGE OF MISSING VALUES : 
+S.NO 
+ATTRIBUTE 
+Percentage Of Missing 
+Values 
+1.  
+Date 
+2.  
+Start Time 
+0 % 
+3.  
+0 % 
+Day Of Week 
+4.  
+0 % 
+Going To 
+5.  
+0 % 
+Distance 
+6.  
+0 % 
+Max Speed 
+7.  
+0 % 
+Avg Speed 
+8.  
+0 % 
+Avg Moving Speed 
+9.  
+0 % 
+Fuel Economy 
+10.  
+8 % 
+Total Time 
+11.  
+0 % 
+Moving Time 
+12.  
+0 % 
+Comments 
+13.  
+88 % 
+Take 407 All 
+0 % 
+B. MIN, MAX, MEAN, STANDARD DEVIATION : 
+RESULT : 
+               Thus, the dataprocessing and analysis for a dataset using weka 
+tool has been successfully completed. 
+ 
+ 
+ 
+ 
+EX.NO.22: 
+Date: 
+                  
+                    DATA SEGMENTATION BY K-MEANS CLUSTER USING  
+                                                  WEKA AND R-TOOL 
+ 
+AIM: 
+          To create DataSegmentation by k-means cluster using weka and R
+tool. 
+ 
+DESCRIPTION: 
+                        Consider a dataset of citycrimes.csv file of which it contains 
+the attributes are City, Pop, WC, BP, Mur, Rap, Rob, Ass, Bus and car for 
+the performance of the dataset by applying the K-means algorithm in 
+weka and as well using R- tool. 
+ 
+PROCEDURE : 
+1.Download WEKA And Install 
+2.Start WEKA 
+3.Open The Data/iris.arff Dataset 
+4.Select And Run An Algorithm 
+5.Review The Results. 
+ 
+USING WEKA TOOL : 
+STEPS INVOLVED : 
+ Choose a set of attributes for clustering and for giving a 
+motivation. 
+ Choose the dataset and import the dataset into Weka tool. 
+ Cluster the dataset and choose simple K-means algorithm and give 
+the motivation. 
+A. Experiment with atleast 2 different number of clusters but with 
+same seed  values: 
+STEPS INVOLVED : 
+ Compare the two different clusters but with the same seed values. 
+ Change the number of clusters value and need not to change the seed 
+value. 
+ Apply the K-means algorithm and start executing the algorithm. 
+RESULT : 
+Thus, the K-means clustering analyzing using the weka tool has been 
+successfully completed. In case of weka tool, the change in seed values lead to 
+the decrease in the number of itera ons. 
+
+
+
+EX.NO:23 
+Date: 
+AIM: 
+DATA SEGMENTATION BY EXPECTATION MAXIMISATION  
+ALGORITHM THROUGH WEKA 
+To create data segmenta on by Expecta on Maximisa on algorithm through 
+weka. 
+DESCRIPTION: 
+Consider a dataset of citycrimes.csv file of which it contains the 
+a ributes are City, Pop, WC, BP, Mur, Rap, Rob, Ass, Bus and car for the 
+performance of the dataset by applying the K-means algorithm in weka and as 
+well using R- tool. 
+When the clustering is been made through the expecta on 
+maximiza on algorithm by se ng minimum standard devia on values then the 
+results will be of the following : 
+PROCEDURE STEPS: 
+ Initially, load the dataset into the weka tool and check for all the 
+attributes present in the dataset. 
+ Then move to cluster panel and apply the EM algorithm technique for 
+the datasheet. 
+ Finally, Observe the results that are obtained. 
+
+ 
+ K- MEANS ALGORITHM: 
+ 
+ 
+RESULT : 
+  Thus, the data analysis by the expecta on maximiza on algorithm 
+using weka has been analyzed and observed properly. 
+ 
+ 
+EX.NO:24 
+Date:                        
+                                DATA SEGMENTATION BY COBWEB – HIERARCHIAL 
+                                         CLUSTERING ALGORITHM USING WEKA TOOL 
+     
+AIM: 
+ To create data segmenta on by cobweb-hierarchial clustering algorithm using 
+weka tool. 
+ DESCRIPTION:                                   
+Consider a dataset netscan.csv where it contains the a ributes of Newsgroups, 
+posts, posters, PPRa o, Returnees, Replies, Repliers, UnRMsgs, Avg.LineCT, 
+Xports, XPTgs. Each a ribute will have different types of the meanings. 
+ 
+PROCEDURE: 
+1.Download WEKA And Install 
+2.Start WEKA 
+3.Open The Data/iris.arff Dataset 
+4.Select And Run An Algorithm 
+5.Review The Results 
+HIERARCHIIAL CLUSTERING: 
+RESULT : 
+Thus, the data analysis of cobweb hierarchial clustering algorithm 
+using weka tools has been analyzed and observed successfully. 
+
+
+
+EX.NO:25 
+Date:                   
+AIM: 
+FREQUENT PATTERN MINING USING ASSOCIATION RULE 
+THROUGH   WEKA AND R -TOOLS 
+To create frequent pa ern mining using associa on rule through weka and 
+R-tools. 
+DESCRIPTION: 
+Consider a dataset of 2015.csv file of which it contains the a ributes are 
+Reference Number, Grid ref: Eas ng, Grid Ref: Northing, Number of vehicles, 
+Accident date, Time(24 hr), 1st Road class, Road Surface, Ligh ng condi ons, 
+Weather condi ons, casuality class, Sex of casuality, Age of casuality, Type of 
+casuality for the performance of the dataset by applying the Apriori algorithm 
+in weka and as well using R- tool.  
+PROCEDURE: 
+1.Download WEKA And Install 
+2.Start WEKA 
+3.Open The Data/iris.arff Dataset 
+4.Select And Run An Algorithm 
+5.Review The Results 
+ USING WEKA TOOL : 
+STEPS INVOLVED : 
+ Choose a set of attributes for clustering and for giving a 
+motivation. 
+ Choose the dataset and import the dataset into Weka tool. 
+ Discretize the attributes from numeric to nominal to perform the 
+algorithm. 
+ Cluster the dataset and choose simple Apriori algorithm. 
+ Set the Upper bound min_sup and lower bound min_sup values. 
+RESULT : 
+Thus, the Apriori algorithm analyzing using both the weka tool and R- tool has 
+been successfully completed. In case of weka tool, the change in upper bound 
+and lower bound values lead to the increase and decrease of number of 
+itemsets and rules . In case of R-tool, there is an increase in absolute minimum 
+support count value. 
+
+
+
+EX.NO:26 
+Date: 
+AIM: 
+FREQUENT PATTERN MINING USING FP GROWTH  
+THROUGH WEKA TOOL 
+To create frequent pa ern mining using FP Growth through weka tool. 
+DESCRIPTION: 
+Consider a dataset of 2015.csv file of which it contains the a ributes are 
+Reference Number, Grid ref: Eas ng, Grid Ref: Northing, Number of vehicles, 
+Accident date, Time(24 hr), 1st Road class, Road Surface, Ligh ng condi ons, 
+Weather condi ons, casuality class, Sex of casuality, Age of casuality, Type of 
+casuality for the performance of the dataset by applying the FP algorithm in 
+weka tool. 
+PROCEDURE: 
+1.Download WEKA And Install 
+2.Start WEKA 
+3.Open The Data/iris.arff Dataset 
+4.Select And Run An Algorithm 
+5.Review The Results 
+ USING WEKA TOOL : 
+STEPS INVOLVED : 
+ Choose a set of attributes for clustering and for giving a 
+motivation. 
+ Choose the dataset and import the dataset into Weka tool. 
+ Discretize the attributes from all data types to nominal to perform 
+the algorithm. 
+ Associate the attributes with the FP growth algorithm. 
+ Set the Upper bound min_sup and lower bound min_sup values. 
+OBSERVATIONS : 
+1) When the association rules are of values: 
+a) Upper bound min_sup  = 1.0 
+b) Lower bound min_sup  =  0.1 
+c) Metric type 
+=  confidence. 
+2) When the association rules are of values: 
+a) Upper bound min_sup  = 2.0 
+b) Lower bound min_sup  =  1.0 
+c) Metric type 
+=  confidence. 
+RESULT : 
+Thus, the analysis of FP growth algorithm using weka tool has 
+been successfully completed. Incase of changing the upper bound and lower 
+bound values there is a change in the number of rules that are found. 
+
+
+
+EX.NO:27 
+Date: 
+AIM: 
+PREDICTION OF CATEGORICAL DATA USING  
+DECISION TREE ALGORTIHM THROUGH WEKA 
+To create predic on of categorical data using decision tree algorithm through 
+weka tool. 
+PROCEDURE: 
+1.Download WEKA And Install 
+2.Start WEKA 
+3.Open The Data/iris.arff Dataset 
+4.Select And Run An Algorithm 
+5.Review The Results 
+ Decision Tree : 
+Visualize the decision tree for the given dataset. 
+or. 
+ CROSS VALIDATION  ANALYSIS : 
+When cross validation folds are 10 : 
+When cross validation folds are : 05  :- 
+
+RESULT : 
+Thus, the observa ons and evalua ons done on the german_credit 
+dataset are analyzed. The decision tree has been successfully visualized. 
+Various evalua ons and comparisons done through the cross valida on folds 
+change.  Which lead to the change of values in confusion matrix. 
+
+
+
+EX.NO:28 
+Date: 
+PREDICTION OF CATEGORICAL DATA USING SMO ALGORTIHM 
+THROUGH WEKA 
+AIM: 
+To create predic on of categorical data using SMO Algorithm through weka 
+tool. 
+DESCRIPTION: 
+Consider the german credit dataset which can be downloaded from the 
+UCI repository. 
+PROCEDURE: 
+1.Download WEKA And Install 
+2.Start WEKA 
+3.Open The Data/iris.arff Dataset 
+4.Select And Run An Algorithm 
+5.Review The Results 
+ DECISION TREE : 
+A tree has many analogies in real life, and turns out that it has 
+influenced a wide area of machine learning, covering both classification 
+and regression. In decision analysis, a decision tree can be used to 
+visually and explicitly represent decisions and decision making. As the 
+name goes, it uses a tree-like model of decisions. Though a commonly 
+used tool in data mining for deriving a strategy to reach a particular goal, 
+its also widely used in machine learning, which will be the main focus of 
+this article. 
+ SMO ALGORITHM: 
+The itera ve algorithm Sequen al Minimal Opmiza on (SMO) is 
+used for solving quadra c programming (QP) problems. One example 
+where QP problems are relevant is during the training process of support 
+vector machines (SVM). The SMO algorithm is used to solve in this 
+example a constraint opmiza on problem. John Pla proposed this 
+algorithm in 1998 and it was successfully used since then. We describe 
+here the basics of the algorithm in the light of big data. 
+1. Set the cost sensitive evaluation and compare the obtained results. 
+Cost-Sensi ve Learning is a type of learning in data mining that takes 
+the misclassifica on costs (and possibly other types of cost) into 
+considera on. The goal of this type of learning is to minimize the total cost. 
+The key difference between cost-sensi ve learning and cost-insensi ve 
+learning is that cost-sensi ve learning treats the different misclassifica ons 
+differently. Cos nsensi ve learning does not take the misclassifica on costs 
+into considera on. The goal of this type of learning is to pursue a high 
+accuracy of classifying examples into a set of known classes. 
+STEPS : 
+ Classifythe dataset with the cost sensitive classifier technique. 
+ Change the cost matrix to 2*2 matrix and execute. 
+ANALYSIS : 
+2. What is the significance of the following parameters : 
+a) Mean Absolute Error : 
+Mean Absolute Error (MAE) is similar to the Mean Squared 
+Error, but it uses absolute values instead of squaring. This measure is not 
+as popular as MSE, though its meaning is more intuitive (the "average 
+error"). 
+b) Total Number of Instances : 
+The data present consists of various instances of the class. In the 
+case of german_credit dataset, the total number of instances present in the 
+german credit dataset are 1000 instances. 
+RESULT : 
+Thus, the observa ons and evalua ons done on the german_credit 
+dataset are analyzed. The comparison between decision tree and Sequen al 
+Minimal Opmiza on (SMO) has been successfully visualized. In addi on to 
+that cost sensi ve classifier is been used to analyze few things. 
+
+
+
+EX.NO:29 
+Date: 
+AIM: 
+EVALUATING ACCURACY OF THE CLASSIFIERS 
+To create evalua ng accuracy of the classifiers using weka tool. 
+DESCRIPTION: 
+Consider the german credit dataset which can be downloaded 
+from the UCI repository. 
+PROCEDURE: 
+1.Download WEKA And Install 
+2.Start WEKA 
+3.Open The Data/iris.arff Dataset 
+4.Select And Run An Algorithm 
+5.Review The Results 
+ANALYSIS : 
+A) Logistic Regression : 
+Logistic regression predicts the probability of an outcome that 
+can only have two values (i.e. a dichotomy). The prediction is based on 
+the use of one or several predictors (numerical and categorical). 
+Steps : 
+ Load the dataset into the weka tool and preprocess it. 
+ Apply the classification the logistic regression technique and 
+execute for the result. 
+Output : 
+B) Naïve Bayes Algorithm : 
+The Naive Bayesian classifier is based on Bayes’ theorem with the 
+independence assump ons between predictors. A Naive Bayesian model is 
+easy to build, with no complicated itera ve parameter esma on which 
+makes it par cularly useful for very large datasets. Despite its simplicity, the 
+Naive Bayesian classifier o en does surprisingly well and is widely used 
+because it o en outperforms more sophis cated classifica on methods.  
+Steps : 
+ Load the dataset into the weka tool and preprocess it. 
+ Apply the classification the Naïve bayes technique and execute for the 
+result. 
+Output : 
+
+C) J48 Algorithm : 
+Classifica on is the process of building a model of classes from a 
+set of records that contain class labels. Decision Tree Algorithm is to find out 
+the way the a ributes-vector behaves for a number of instances. Also on the 
+bases of the training instances the classes for the newly generated instances 
+are being found. This algorithm generates the rules for the predic on of the 
+target variable. With the help of tree classifica on algorithm the cri cal 
+distribu on of the data is easily understandable. 
+Steps : 
+Output : 
+ Load the dataset into the weka tool and preprocess it. 
+ Apply the classification the J48 technique and execute for the 
+result. 
+D) K-Nearest Neighbor : 
+K-Nearest Neighbors is one of the most basic yet essen al 
+classifica on algorithms in Machine Learning. It belongs to the supervised 
+learning domain and finds intense applica on in pa ern recogni on, data 
+mining and intrusion detec on.  
+It is widely disposable in real-life scenarios since it is non
+parametric, meaning, it does not make any underlying assump ons about the 
+distribu on of data (as opposed to other algorithms such as GMM, which 
+assume a Gaussian distribu on of the given data).  
+We are given some prior data (also called training data), which 
+classifies coordinates into groups iden fied by an a ribute. 
+Steps : 
+Output : 
+ Load the dataset into the weka tool and preprocess it. 
+ Apply the classification the K- Nearest Neighbor technique and 
+execute for the result. 
+E) SMO Algorithm : 
+The itera ve algorithm Sequen al Minimal Opmiza on (SMO) is 
+used for solving quadra c programming (QP) problems. One example 
+where QP problems are relevant is during the training process of support 
+vector machines (SVM). The SMO algorithm is used to solve in this 
+example a constraint opmiza on problem. John Pla proposed this 
+algorithm in 1998 and it was successfully used since then. We describe 
+here the basics of the algorithm in the light of big data. 
+Steps : 
+ Load the dataset into the weka tool and preprocess it. 
+ Apply the classification the Sequential Minimal Optimization 
+(SMO)technique and execute for the result. 
+RESULT : 
+Thus, the comparison of the confusion matrix for all the methods and 
+techniques. Out of the comparing matrix with all the techniques there is a 
+change in instances. Naïve bayes has more number of correct instances than 
+other but when compared to me K-nearest neighbor is best. The above graphs 
+will show the varia ons of values in the parameters. 
+
+
+
+EX.NO:30 
+Date: 
+AIM: 
+DESCRIPTION NUMERICAL PREDICTION ANALYSIS 
+USING LINEAR REGRESSION THROUGH WEKA 
+To create descrip on numerical predic on  analysis using linear regression 
+through weka tool. 
+DESCRIPTION: 
+Consider a dataset of house.arff where it contains the a ributes as 
+house size, lot size, bedrooms, granite, bathroom and the selling price. 
+PROCEDURE: 
+1.Download WEKA And Install 
+2.Start WEKA 
+3.Open The Data/iris.arff Dataset 
+4.Select And Run An Algorithm 
+5.Review The Results 
+Steps : 
+ Load the dataset into the weka tool and check for the attributes. 
+ Classify the data using linear regression analysis method (or) 
+technique. 
+ Check for the cross-validation folds where the value of the folds 
+should be less than the value of the instances present in the dataset. 
+ Observe the cross validation summary after applying the linear 
+regression technique for the price of the house. 
+OBSERVATION : 
+ When cross validation folds = 05 : 
+ When cross validation folds = 10  : 
+RESULT : 
+Thus, the house selling price has been observed using linear 
+regression model. If the value of cross valida on folds decreases me for 
+crea ng model will be less than when folds value high, and the mean absolute 
+error and Root mean square error values decreases with increase in the cross 
+valida on folds value. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                                    
